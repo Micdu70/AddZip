@@ -34,7 +34,7 @@ plugin.onLangLoaded = function()
 	}));
 
     $('#tadd').css('height', 'auto');
-    var addtorrentdiv = $("div.cont.fxcaret");
+    var addtorrentdiv = $('#tadd').find("div.cont.fxcaret");
     addtorrentdiv.append("<hr>");
 
     addtorrentdiv.append('<form target="uploadfrmzip" method="post" enctype="multipart/form-data" id="addtorrentzip" action="">' +
